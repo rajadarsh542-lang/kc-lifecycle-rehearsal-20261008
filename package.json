@@ -1,0 +1,11 @@
+{
+  "name": "keepcommit-disposable-lifecycle-rehearsal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Credential-free Render lifecycle observation fixture",
+  "engines": { "node": "22.23.2" },
+  "scripts": {
+    "build": "node build.cjs",
+    "start:render": "NODE_ENV=production node server.cjs --command-tag=baseline"
+  }
+}
